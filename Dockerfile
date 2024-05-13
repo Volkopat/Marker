@@ -48,7 +48,7 @@ COPY . .
 # Set environment variables for the application
 ENV TORCH_DEVICE=cuda \
     INFERENCE_RAM=16 \
-    OCR_ENGINE=ocrmypdf \
+    OCR_ENGINE=surya \
     TESSDATA_PREFIX=/usr/share/tesseract-ocr/4.00/tessdata
 
 # Expose the port the app runs on
